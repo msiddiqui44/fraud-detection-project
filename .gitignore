@@ -1,1 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Output files
+outputs/
+outputs/models/
+outputs/figures/
+
+# Datasets
+data/raw/
+data/processed/
+
+# Power BI
+*.pbix
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Conda environment files
+*.conda
+*.yml
+
+# Model files
+*.pkl
+*.joblib
 
