@@ -1,47 +1,111 @@
+# ------------------------------
 # Python
+# ------------------------------
 __pycache__/
 *.py[cod]
-*.so
-*.pyd
 *.pyo
+*.pyd
+*.so
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
+# Bytecode
+*.pyc
 
-# Environment files
-.env
-.venv/
-venv/
+# Virtual Environments
 env/
+venv/
+.venv/
+ENV/
+env.bak/
 *.egg-info/
-
-# Output files
-outputs/
-outputs/models/
-outputs/figures/
-
-# Datasets
-data/raw/
-data/processed/
-
-# Power BI
-*.pbix
-
-# System
-.DS_Store
-Thumbs.db
-
-# VSCode
-.vscode/
 
 # Logs
 *.log
 
-# Conda environment files
-*.conda
-*.yml
+# Python packaging
+build/
+dist/
+*.egg
+.eggs/
 
+# ------------------------------
+# Jupyter Notebooks
+# ------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------
+# Datasets
+# ------------------------------
+data/raw/
+data/processed/*.csv
+*.csv
+*.tsv
+*.zip
+
+# ------------------------------
 # Model files
+# ------------------------------
 *.pkl
 *.joblib
+*.h5
+*.sav
 
+# ------------------------------
+# Outputs
+# ------------------------------
+outputs/
+outputs/models/
+outputs/figures/
+
+# ------------------------------
+# Power BI
+# ------------------------------
+*.pbix
+
+# ------------------------------
+# SQL
+# ------------------------------
+*.sqlite
+*.db
+
+# ------------------------------
+# Conda / Pip environment
+# ------------------------------
+*.conda
+*.env
+*.yml
+
+# ------------------------------
+# System files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# VSCode
+# ------------------------------
+.vscode/
+*.code-workspace
+
+# ------------------------------
+# Pytest
+# ------------------------------
+.cache/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ------------------------------
+# MyPy / Type Checking
+# ------------------------------
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ------------------------------
+# Jupyter Lab
+# ------------------------------
+.lab/
