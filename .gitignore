@@ -1,0 +1,51 @@
+# ─── Python Bytecode ─────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ─── Virtual Environments ────────────────────────
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+*.egg
+
+# ─── Jupyter Notebook Checkpoints ────────────────
+.ipynb_checkpoints/
+
+# ─── Logs and Temp Files ─────────────────────────
+*.log
+*.tmp
+.cache/
+.pytest_cache/
+
+# ─── System / Editor Files ───────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
+
+# ─── Environment & Config ────────────────────────
+.env
+*.conda
+*.yml
+
+# ─── Power BI Files ──────────────────────────────
+*.pbix
+
+# ─── Model Artifacts ─────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.sav
+outputs/models/
+
+# ─── Raw Data Files (Too Large for GitHub) ───────
+data/raw/
+
+# ─── Allow Sample Files (OK for GitHub) ──────────
+!data/processed/
+!data/processed/*.csv
