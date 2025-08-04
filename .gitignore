@@ -49,3 +49,6 @@ data/raw/
 # ─── Allow Sample Files (OK for GitHub) ──────────
 !data/processed/
 !data/processed/*.csv
+
+# Exclude cleaned_data.csv (large file)
+data/processed/cleaned_data.csv
