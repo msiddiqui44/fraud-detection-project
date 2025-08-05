@@ -46,9 +46,10 @@ outputs/models/
 # ─── Raw Data Files (Too Large for GitHub) ───────
 data/raw/
 
-# ─── Allow Sample Files (OK for GitHub) ──────────
+# ─── Allow Sample Files ──────────
 !data/processed/
 !data/processed/*.csv
 
-# Exclude cleaned_data.csv (large file)
+# Exclude processed large files 
 data/processed/cleaned_data.csv
+data/processed/predictions.csv
