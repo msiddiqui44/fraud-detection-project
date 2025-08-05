@@ -38,7 +38,6 @@ Thumbs.db
 
 # ─── Model Artifacts ─────────────────────────────
 *.pkl
-*.joblib
 *.h5
 *.sav
 outputs/models/
