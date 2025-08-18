@@ -52,3 +52,6 @@ data/raw/
 # Exclude processed large files 
 data/processed/cleaned_data.csv
 data/processed/predictions.csv
+
+# Ignore local database file
+fraud.db
