@@ -33,10 +33,10 @@ Dataset
 - Inserted predictions using SQLAlchemy
 
 - Created views:
-    -high_risk_users: Top risky card_id or email
-    -daily_fraud_stats: Daily fraud rate summary
-    -fraud_by_product: Fraud by ProductCD, browser, card4
-    -validated views via psql / SQLite GUI
+    - high_risk_users: Top risky card_id or email
+    - daily_fraud_stats: Daily fraud rate summary
+    - fraud_by_product: Fraud by ProductCD, browser, card4
+    - validated views via psql / SQLite GUI
 
 ## Power BI Dashboard
 
