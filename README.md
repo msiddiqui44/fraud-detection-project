@@ -40,14 +40,14 @@ Dataset
 
 ## Power BI Dashboard
 
--Connected Power BI to SQL DB
--Imported all tables and views
--Finalizing dashboard layout:
--Daily fraud trends
--Summary KPI card
--High-risk transactions table
--Fraud by product/browser
--Filters by date, device, fraud score, and product
+- Connected Power BI to SQL DB
+- Imported all tables and views
+- Finalizing dashboard layout:
+- Daily fraud trends
+- Summary KPI card
+- High-risk transactions table
+- Fraud by product/browser
+- Filters by date, device, fraud score, and product
 
 
 
